@@ -1,0 +1,19 @@
+@import url(./variaveis.css);
+@import url(./reset.css);
+
+body {
+    max-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50vh;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
