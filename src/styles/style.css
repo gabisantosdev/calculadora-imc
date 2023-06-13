@@ -1,19 +1,80 @@
-@import url(./variaveis.css);
 @import url(./reset.css);
-
-body {
-    max-height: 100vh;
-}
+@import url(./variaveis.css);
 
 .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backgroundColorPrincipal);
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-    margin-top: 50vh;
+    justify-content: center;
+    align-items: center;
+    color: var(--corPrincipal);
 }
 
-.container form {
+h1 {
+    font-size: 2.4rem;
+}
+
+label {
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-bottom: 0.2rem solid var(--corPrincipal);
+    outline: 0;
+}
+
+input:focus {
+    border-bottom: 0.2rem solid var(--corSecundaria);
+}
+
+.container .child, table {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    max-width: 30rem;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 0.2rem solid var(--corPrincipal);
+}
+
+table {
+    margin-top: 1rem;
+}
+
+#calculadora {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.8rem;
+    color: var(--textColor);
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: 0;
+}
+
+#reset {
+    background-color: var(--corSecundaria);
+}
+
+#reset:hover, #reset:focus {
+    background-color: var(--corSecundariaHover);
+}
+
+#calcular {
+    margin: 1rem 2rem 0 0;
+    background-color: var(--corPrincipal);
+}
+
+#calcular:hover, #calcular:focus{
+    background-color: var(--corPrincipalHover);
 }

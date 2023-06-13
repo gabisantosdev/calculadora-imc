@@ -1,4 +1,8 @@
 :root {
-    --corPrincipal: cyan;
-    --corSecundaria: red;
+    --corPrincipal: rgb(80, 80, 255);
+    --corPrincipalHover: blue;
+    --corSecundaria: rgb(255, 80, 80);
+    --corSecundariaHover: red;
+    --backgroundColorPrincipal: black;
+    --textColor: #fff;
 }
