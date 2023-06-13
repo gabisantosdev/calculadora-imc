@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cálculo IMC</title>
+    <title>Cálculadora IMC</title>
     <link rel="stylesheet" href="./src/styles/style.css">
 </head>
 <body>
@@ -22,14 +22,45 @@
             </form>
         </div>
         <table>
-            <tr>
-                <td></td>
-                <td>Knocky</td>
-                <td>Flor</td>
-                <td>Ella</td>
-                <td>Juan</td>
-            </tr>
+            <h2>VEJA A INTERPRETAÇÃO DO IMC</h2>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>CLASSIFICAÇÃO</th>
+                    <th class="grau">OBESIDADE (GRAU)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MENOR QUE 18,5</td>
+                    <td>MAGREZA</td>
+                    <td class="grau">0</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 18,5 E 24,9</td>
+                    <td>NORMAL</td>
+                    <td class="grau">0</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 25,0 E 29,9</td>
+                    <td>SOBREPESO</td>
+                    <td class="grau">I</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 30,0 E 39,9</td>
+                    <td>OBESIDADE</td>
+                    <td class="grau">II</td>
+                </tr>
+                <tr>
+                    <td>MAIOR QUE 40,0</td>
+                    <td>OBESIDADE GRAVE</td>
+                    <td class="grau">III</td>
+                </tr>
+            </tbody>
         </table>
+        <footer>
+            <span>&copy; All rights reserved by gabisantosdev</span>
+        </footer>
     </div>
 </body>
 </html>

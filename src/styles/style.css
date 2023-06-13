@@ -16,6 +16,10 @@ h1 {
     font-size: 2.4rem;
 }
 
+h2 {
+    margin-top: 1rem;
+}
+
 label {
     font-size: 1.2rem;
     text-align: start;
@@ -35,7 +39,6 @@ input:focus {
 
 .container .child, table {
     display: block;
-    text-align: center;
     padding: 1rem;
     max-width: 30rem;
     width: 100%;
@@ -46,6 +49,31 @@ input:focus {
 
 table {
     margin-top: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+table td {
+    color: var( --textColor);
+}
+
+thead, tbody {
+    width: 100%;
+}
+
+table th, table td {
+    width: 100%;
+}
+
+table tr, table th {
+    display: flex;
+    justify-content: start;
+}
+
+.grau {
+    display: flex;
+    justify-content: center;
 }
 
 #calculadora {
@@ -77,4 +105,9 @@ button {
 
 #calcular:hover, #calcular:focus{
     background-color: var(--corPrincipalHover);
+}
+
+footer {
+    font-size: 1rem;
+    margin-top: 0.5rem;
 }
