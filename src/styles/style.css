@@ -116,3 +116,11 @@ footer {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
+.imc {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0.2rem solid var(--corPrincipal);
+    border-radius: 1rem;
+}
